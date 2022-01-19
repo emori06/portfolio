@@ -45,6 +45,8 @@ Barrage
 
 ### racegame
 
+unityroomのログインができなかったのでしばらくお待ちください
+
 ![Now Loding...]()
 [racegame]()
 
