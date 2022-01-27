@@ -45,10 +45,8 @@ Barrage
 
 ### racegame
 
-unityroomのログインができなかったのでしばらくお待ちください
-
-![Now Loding...]()
-[racegame]()
+[![Now Loding...](images/race_1.png)](https://unityroom.com/games/race_games)
+[racegame](https://unityroom.com/games/race_games)
 
 作品概要
 
