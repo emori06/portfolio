@@ -36,7 +36,7 @@
 
 ### Barrage
 
-![Now Loding...](images/game-image.png)
+![Now Loading...](images/game-image.png)
 
 Barrage
 
@@ -48,7 +48,7 @@ Barrage
 
 ### 機械戦線
 
-![Now Loding...](images/.png)
+![Now Loading...](images/.png)
 
 機械戦線
 
@@ -60,7 +60,7 @@ Barrage
 
 ### racegame
 
-[![Now Loding...](images/race_1.png)](https://unityroom.com/games/race_games)
+[![Now Loading...](images/race_1.png)](https://unityroom.com/games/race_games)
 [racegame](https://unityroom.com/games/race_games)
 
 作品概要
