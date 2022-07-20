@@ -48,7 +48,7 @@ Barrage
 
 ### 機械戦線
 
-![](images/.png)
+![現在画像なし](images/.png)
 
 機械戦線
 
