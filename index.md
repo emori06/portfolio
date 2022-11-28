@@ -47,6 +47,11 @@ Barrage
 - 開発期間：約1ヵ月
 - 製作物　：2Dモデル
 
+# 以下が制作物
+
+[![リンク切れ、もしくは表示ミス](images/.png)]
+[![リンク切れ、もしくは表示ミス](images/.png)]
+
 ### racegame
 
 [![リンク切れ、もしくは表示ミス](images/race_1.png)](https://unityroom.com/games/race_games)
@@ -69,6 +74,9 @@ Barrage
 - 開発環境：unity/チーム
 - 開発期間：現在鋭意制作中
 - 製作物　：3Dモデル, 敵AIのプログラム
+
+# 以下が制作物
+
 
 ### 個人製作
 
