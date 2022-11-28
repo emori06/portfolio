@@ -80,7 +80,7 @@ Barrage
 #### 制作物
 3Dモデル
 
-<img src="" width="">
+<img src="images/Katana_1.png" width="240px">
 <img src="images/Robot_1.png" width="240px">
 <img src="" width="">
 
