@@ -147,7 +147,7 @@ Robotの移動
       }
     }
     
-Robotに攻撃をさせるためのプログラム
+Robotに攻撃をさせる
 
     using System.Collections;
     using System.Collections.Generic;
@@ -193,6 +193,32 @@ Robotに攻撃をさせるためのプログラム
         }
     }
 
+アニメーションをランダムに再生させる
+
+    using System.Collections;
+    using System.Collections.Generic;
+    using UnityEngine;
+
+    public class RandamAnim : MonoBehaviour
+    {
+
+        int rand;
+
+        // Start is called before the first frame update
+        void Start()
+        {
+
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            Animator animator = GetComponent<Animator>();
+            rand = Random.Range(0, 3);
+
+            animator.SetInteger("Random", rand);
+        }
+    }
 
 ### 個人製作
 
