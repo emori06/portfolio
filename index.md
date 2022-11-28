@@ -47,6 +47,17 @@ Barrage
 - 開発期間：約1ヵ月
 - 製作物　：2Dモデル
 
+### racegame
+
+[![リンク切れ、もしくは表示ミス](images/race_1.png)](https://unityroom.com/games/race_games)
+[racegame](https://unityroom.com/games/race_games)
+
+作品概要
+
+- 開発環境　　：unity/個人
+- 使用アセット：なし
+- 開発期間　　：約15日
+
 ### 機械戦線
 
 ![現在画像なし](images/.png)
@@ -58,17 +69,6 @@ Barrage
 - 開発環境：unity/チーム
 - 開発期間：現在鋭意制作中
 - 製作物　：3Dモデル, 敵AIのプログラム
-
-### racegame
-
-[![リンク切れ、もしくは表示ミス](images/race_1.png)](https://unityroom.com/games/race_games)
-[racegame](https://unityroom.com/games/race_games)
-
-作品概要
-
-- 開発環境　　：unity/個人
-- 使用アセット：なし
-- 開発期間　　：約15日
 
 
 
