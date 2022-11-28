@@ -80,9 +80,9 @@ Barrage
 #### 制作物
 3Dモデル
 
-![リンク切れ、もしくは表示ミス]<img src="" width="">
-![リンク切れ、もしくは表示ミス](<img src="images/Robot_1.png" width="240px">)
-![リンク切れ、もしくは表示ミス]<img src="" width="">
+<img src="" width="">
+<img src="images/Robot_1.png" width="240px">
+<img src="" width="">
 
 プログラム
 
