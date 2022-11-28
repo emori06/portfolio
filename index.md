@@ -156,6 +156,52 @@ Robotの移動
           audioSource.PlayOneShot(footSound);
       }
     }
+    
+Robotに攻撃をさせるためのプログラム
+
+    using System.Collections;
+    using System.Collections.Generic;
+    using UnityEngine;
+
+    public class Robot_Raycast : MonoBehaviour
+    {
+        [SerializeField] GameObject robotForward; // ロボットの前面
+        [SerializeField] float distance = 10f;    // 検出可能な距離
+        [SerializeField] GameObject eyesLine;     // RayCastのスタート時点
+
+        // Start is called before the first frame update
+        void Start() { }
+
+        // Update is called once per frame
+        void Update()
+        {
+            Animator animator = GetComponent<Animator>();
+
+            // Rayはロボットの前面からとばす
+            var rayDirection = robotForward.transform.forward.normalized;
+
+            // Hitしたオブジェクト格納用
+            RaycastHit raycastHit;
+
+            var isHit = Physics.Raycast(eyesLine.transform.position, rayDirection, out raycastHit, distance);
+
+            Debug.DrawRay(eyesLine.transform.position, rayDirection * distance, Color.blue);
+
+            if (isHit)
+            {
+                //Debug.Log("HitObject : " + raycastHit.collider.gameObject.name);
+                if (raycastHit.collider.gameObject.tag == "Player")
+                {
+                    animator.SetBool("HitPlayer", true);
+                    //TinyAudio.PlaySE(TinyAudio.SE.enemyAttack1);
+                }
+            }
+            else
+            {
+                animator.SetBool("HitPlayer", false);
+            }
+        }
+    }
 
 
 ### 個人製作
