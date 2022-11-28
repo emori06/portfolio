@@ -82,8 +82,8 @@ Barrage
 
 <img src="images/Katana_1.png" width="240px">
 <img src="images/Robot_1.png" width="240px">
-<img src="" width="">robo2
-<img src="" width="">suihanki
+<img src="images/Robot_2.png" width="240ps">
+<img src="images/Asistant_1.png" width="240ps">
 
 3Dモデルのアニメーション
 
