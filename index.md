@@ -96,6 +96,7 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 
 public class Robot_Move : MonoBehaviour
+
 {
 
     [SerializeField]
