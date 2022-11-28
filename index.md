@@ -67,7 +67,7 @@ Barrage
 
 ### 機械戦線
 
-![現在画像なし](images/.png)
+![スクリーンショット取るのを忘れました](images/.png)
 
 機械戦線
 
@@ -86,6 +86,9 @@ Barrage
 <img src="images/Asistant_1.png" width="240ps">
 
 3Dモデルのアニメーション
+
+![リンク切れ、もしくは表示ミス](images/pofo_Robot_1.mp4)
+![リンク切れ、もしくは表示ミス](images/pofo_Asistant.mp4)
 
 プログラム
 Robotの移動
