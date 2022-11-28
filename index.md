@@ -125,23 +125,12 @@ Robotの移動
       void Update()
       {
           animator = GetComponent<Animator>();
-
+          
+          navMeshAgent.destination = player.transform.position;
           animator.SetTrigger("FootSound");
       }
-
-      private void OnTriggerStay(Collider sphereCollider)
-      {
-          if (sphereCollider.CompareTag("Player"))
-          {
-              animator.SetBool("SearchedPlayer", true);
-              navMeshAgent.destination = player.transform.position;
-          }
-          else
-          {
-              animator.SetBool("SearchedPlayer", false);
-          }
-      }
     
+      //プレイヤーとの衝突時の反発を無くす
       private void OnCollisionStay(Collision boxCollision)
       {
           if (boxCollision.collider.gameObject.tag == "Player" || boxCollision.collider.gameObject.tag == "Enemy")
@@ -150,7 +139,8 @@ Robotの移動
               rb.angularVelocity = Vector3.zero;
           }
       }
-
+      
+      //足音を鳴らす
       public void PlayFootSound()
       {
           audioSource.PlayOneShot(footSound);
