@@ -87,7 +87,7 @@ Barrage
 
 プログラム
 Robotの移動
-{
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -97,6 +97,7 @@ using UnityEngine.AI;
 
 public class Robot_Move : MonoBehaviour
 {
+
     [SerializeField]
     [Tooltip("追いかける対象")]
     public GameObject player;
@@ -152,7 +153,6 @@ public class Robot_Move : MonoBehaviour
     {
         audioSource.PlayOneShot(footSound);
     }
-}
 }
 
 
