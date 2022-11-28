@@ -87,8 +87,8 @@ Barrage
 
 3Dモデルのアニメーション
 
-![リンク切れ、もしくは表示ミス](images/pofo_Robot_1.mp4)
-![リンク切れ、もしくは表示ミス](images/pofo_Asistant.mp4)
+![リンク切れ、もしくは表示ミス](images/Robot_1.gif)
+![リンク切れ、もしくは表示ミス](images/Asistant.gif)
 
 プログラム
 Robotの移動
