@@ -88,74 +88,74 @@ Barrage
 プログラム
 Robotの移動
 
-  using System.Collections;
-  using System.Collections.Generic;
-  using UnityEngine;
-  using UnityEngine.AI;
-
-  [RequireComponent(typeof(NavMeshAgent))]
-
-
-
-  public class Robot_Move : MonoBehaviour
-  {
-
-    [SerializeField]
-    [Tooltip("追いかける対象")]
-    public GameObject player;
-
-    public NavMeshAgent navMeshAgent;
-    public Rigidbody rb;
-    public AudioClip footSound;
-
-    Animator animator;
-
-
-    private AudioSource audioSource;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        navMeshAgent = GetComponent<NavMeshAgent>();
-        rb = GetComponent<Rigidbody>();
-        audioSource = GetComponent<AudioSource>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        animator = GetComponent<Animator>();
-
-        //animator.SetTrigger("FootSound");
-    }
-
-    private void OnTriggerStay(Collider sphereCollider)
-    {
-        if (sphereCollider.CompareTag("Player"))
-        {
-            animator.SetBool("SearchedPlayer", true);
-            navMeshAgent.destination = player.transform.position;
-        }
-        else
-        {
-            animator.SetBool("SearchedPlayer", false);
-        }
-    }
+    using System.Collections;
+    using System.Collections.Generic;
+    using UnityEngine;
+    using UnityEngine.AI;
     
-    private void OnCollisionStay(Collision boxCollision)
+    [RequireComponent(typeof(NavMeshAgent))]
+    
+    
+    
+    public class Robot_Move : MonoBehaviour
     {
-        if (boxCollision.collider.gameObject.tag == "Player" || boxCollision.collider.gameObject.tag == "Enemy")
-        {
-            rb.velocity = Vector3.zero;
-            rb.angularVelocity = Vector3.zero;
-        }
-    }
 
-    public void PlayFootSound()
-    {
-        audioSource.PlayOneShot(footSound);
+      [SerializeField]
+      [Tooltip("追いかける対象")]
+      public GameObject player;
+
+      public NavMeshAgent navMeshAgent;
+      public Rigidbody rb;
+      public AudioClip footSound;
+
+      Animator animator;
+
+
+      private AudioSource audioSource;
+
+      // Start is called before the first frame update
+      void Start()
+      {
+          navMeshAgent = GetComponent<NavMeshAgent>();
+          rb = GetComponent<Rigidbody>();
+          audioSource = GetComponent<AudioSource>();
+      }
+
+      // Update is called once per frame
+      void Update()
+      {
+          animator = GetComponent<Animator>();
+
+          //animator.SetTrigger("FootSound");
+      }
+
+      private void OnTriggerStay(Collider sphereCollider)
+      {
+          if (sphereCollider.CompareTag("Player"))
+          {
+              animator.SetBool("SearchedPlayer", true);
+              navMeshAgent.destination = player.transform.position;
+          }
+          else
+          {
+              animator.SetBool("SearchedPlayer", false);
+          }
+      }
+    
+      private void OnCollisionStay(Collision boxCollision)
+      {
+          if (boxCollision.collider.gameObject.tag == "Player" || boxCollision.collider.gameObject.tag == "Enemy")
+          {
+              rb.velocity = Vector3.zero;
+              rb.angularVelocity = Vector3.zero;
+          }
+      }
+
+      public void PlayFootSound()
+      {
+          audioSource.PlayOneShot(footSound);
+      }
     }
-  }
 
 
 ### 個人製作
