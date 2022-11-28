@@ -81,7 +81,7 @@ Barrage
 3Dモデル
 
 ![リンク切れ、もしくは表示ミス](images/.png)
-![リンク切れ、もしくは表示ミス](images/.png)
+![リンク切れ、もしくは表示ミス](images/Robot_1.png)
 ![リンク切れ、もしくは表示ミス](images/.png)
 
 プログラム
