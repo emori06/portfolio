@@ -49,8 +49,10 @@ Barrage
 
 #### 制作物
 
-[![リンク切れ、もしくは表示ミス](images/chara_1_gif.gif)]
-[![リンク切れ、もしくは表示ミス](images/enemy_1_gif.gif)]
+![リンク切れ、もしくは表示ミス](images/chara_1_gif.gif)
+![リンク切れ、もしくは表示ミス](images/enemy_1_gif.gif)
+![リンク切れ、もしくは表示ミス](images/enemy_2_gif.gif)
+![リンク切れ、もしくは表示ミス](images/icon_1.png)
 
 ### racegame
 
