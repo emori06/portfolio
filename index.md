@@ -126,7 +126,7 @@ Robotの移動
       {
           animator = GetComponent<Animator>();
 
-          //animator.SetTrigger("FootSound");
+          animator.SetTrigger("FootSound");
       }
 
       private void OnTriggerStay(Collider sphereCollider)
