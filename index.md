@@ -87,18 +87,13 @@ Barrage
 
 プログラム
 Robotの移動
-
+{
 using System.Collections;
-
 using System.Collections.Generic;
-
 using UnityEngine;
-
 using UnityEngine.AI;
 
-
 [RequireComponent(typeof(NavMeshAgent))]
-
 
 public class Robot_Move : MonoBehaviour
 {
@@ -157,6 +152,7 @@ public class Robot_Move : MonoBehaviour
     {
         audioSource.PlayOneShot(footSound);
     }
+}
 }
 
 
