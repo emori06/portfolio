@@ -67,7 +67,7 @@ Barrage
 
 ### 機械戦線
 
-![スクリーンショット取るのを忘れました](images/.png)
+![リンク切れ、もしくは表示ミス](images/somenail_1.jpg)
 
 機械戦線
 
